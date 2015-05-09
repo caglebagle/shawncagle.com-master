@@ -1,0 +1,23 @@
+/* TODO: Active element overlay */
+
+@mixin content() {
+    display           : inline-block;
+    vertical-align    : top;
+    position          : relative;
+    width             : 75%;
+    max-width         : ( $project--item-width + $project--item-margins + $project--item-padding ) * 4.25;
+    /* float             : right; */
+    @extend           .no_list;
+}
+
+@mixin content--item( $width, $padding ) {
+    position : relative;
+    display  : inline-block;
+    width    : $width;
+    padding  : $padding;
+}
+
+@mixin content--thumb-active(  ) {
+    border: 1px solid $light_blue;
+    padding: 3px;
+}

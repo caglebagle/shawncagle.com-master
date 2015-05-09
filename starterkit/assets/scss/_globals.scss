@@ -1,0 +1,44 @@
+/*{{{
+ * Global Styles.
+ * @Author   : Kristopher Watts <kristopher.a.watts@gmail.com>
+ * @Location : "/assets/scss/_globals.scss"
+ *
+ * @Uses     : use @extend <classname> to keep php files nice and clean
+ * @Example  : .navlist { @extend .no_list; // Get rid of default UL styling }
+ *
+ *
+ *
+}}}*/
+
+// Change all box sizing to border-box
+* {
+    box-sizing: border-box;
+}
+
+// Set the default font size for rems
+html {
+    font-size: 62.5%;
+}
+
+// Remove Default Body Style
+body {
+    margin  : 0;
+    padding : 0;
+}
+
+main {
+
+}
+
+// Overwrite default ul styling
+.no_list {
+    list-style   : none;
+    padding-left : 0px;
+}
+
+hr {
+    border-top    : 3px solid $light_blue;
+    border-bottom : none;
+    margin-top    : 1.0rem;
+    margin-bottom : 1.0rem;
+}

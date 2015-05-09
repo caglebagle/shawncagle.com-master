@@ -1,0 +1,78 @@
+/* Navigation Menu Style Tree
+ * ------------------------------
+ * nav
+ *     hr.nav--list--break
+ *     ul.nav--list
+ *         li.nav--list--item
+ *             a
+*/
+
+$nav-width                       : ( 100% - $project_grid-width - 5 );
+
+$nav--list-width                 : 80%;
+$nav--list-max_width             : 300px;
+$nav--list-height                : 50px;
+$nav--list-line_height           : 2.2rem;
+$nav--list-padding_left          : 60px;
+$nav--list-padding-right         : 5%;
+$nav--list-margin_top            : 130px;
+
+$nav--list--item-hover_color     : $light_blue;
+$nav--list--item-width           : 115%;
+$nav--list--item-color           : $black;
+$nav--list--item-transition      : all .5s;
+$nav--list--item-font-size       : 1.3rem;
+
+$nav--list--item--a-padding_left : 15px;
+$nav--list--item--a-hover_color  : $white;
+
+/* Instead of changing styles with media queries, use variables as much as possible. */
+@media only screen and ( max-width: 1000px ) {
+    $nav-width: 100% - $project_grid-width - .3;
+}
+
+nav {
+    display : inline-block;
+    width   : $nav-width;
+}
+
+.nav--list {
+    @extend        .no_list;
+    margin-top    : $nav--list-margin_top;
+    padding-left  : $nav--list-padding-left;
+    padding-right : $nav--list-padding-right;
+    line-height   : $nav--list-line_height;
+    width         : $nav--list-width;
+    max-width     : $nav--list-max_width;
+}
+
+.nav--list--item {
+    font-size : $nav--list--item-font-size;
+    width     : $nav--list--item-width;
+
+    a {
+        display         : block;
+        padding-left    : $nav--list--item--a-padding_left;
+        transition      : inherit;
+        color           : $black;
+        width           : 100%;
+        text-decoration : none;
+        text-transform  : capitalize;
+    }
+
+    &:hover {
+        @extend .nav--list--item-active;
+    }
+
+}
+
+.nav--list--item-active {
+    transition   : $nav--list--item-transition;
+    background   : $nav--list--item-hover_color;
+        a{ color : $nav--list--item--a-hover_color; }
+}
+
+
+.nav--list--break {
+    width         : 115%;
+}

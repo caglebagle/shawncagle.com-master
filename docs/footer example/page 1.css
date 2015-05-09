@@ -1,0 +1,298 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#Thumnail {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail1 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail2 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail3 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail4 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail5 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail6 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail7 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail8 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail9 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail10 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Thumnail11 {
+    float: left;
+    height: 134px;
+    clear: none;
+    width: 20.999146%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0% 0% 4% 4%;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.0980392);
+}
+
+#Footer {
+    float: left;
+    height: auto;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    padding-bottom: 0px;
+    display: block;
+    min-width: 0px;
+    max-width: 1024px;
+    background-color: rgba(183, 189, 255, 0.156863);
+    padding-right: 0px;
+}
+
+@media only screen and (max-width: 1002px) {
+    #Thumnail11 {
+        width: 29.3%;
+    }
+
+    #Thumnail10 {
+        width: 29.3%;
+    }
+
+    #Thumnail7 {
+        width: 29.3%;
+    }
+
+    #Thumnail8 {
+        width: 29.3%;
+    }
+
+    #Thumnail4 {
+        width: 29.3%;
+    }
+
+    #Thumnail5 {
+        width: 29.3%;
+    }
+
+    #Thumnail6 {
+        width: 29.3%;
+    }
+
+    #Thumnail3 {
+        width: 29.3%;
+    }
+
+    #Thumnail9 {
+        width: 29.3%;
+    }
+
+    #Thumnail {
+        width: 29.3%;
+    }
+
+    #Thumnail2 {
+        width: 29.3%;
+    }
+
+    #Thumnail1 {
+        width: 29.3%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #Thumnail {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail1 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail2 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail3 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail7 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail6 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail5 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail4 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail11 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail10 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail9 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Thumnail8 {
+        width: 46%;
+        min-width: 200px;
+    }
+
+    #Footer {
+        clear: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        float: left;
+        width: 96%;
+    }
+}
+

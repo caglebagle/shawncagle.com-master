@@ -1,0 +1,50 @@
+/* Header Style Tree
+ * ------------------------------
+ * header
+ *     .header--logo_alt
+ *         .header--logo_img
+ *     .header--sub_header
+ *     .header--sub_header
+*/
+
+$header-height: 120px;
+
+$header--logo-font_size   : 2.55rem;
+$header--logo-line_height : 2.55rem;
+$header--logo-background  : $light_blue;
+$header--logo_alt-color   : $light_gray;
+$header--logo_alt-width   : 275px;
+$header--logo_alt-height  : 95px;
+$header--logo_alt-margin  : 0 0 0 35px;
+$header--logo_alt-padding : 25px 15px 15px 15px;
+
+// $header--sub_header-margin-left : 20px;
+// $header--sub_header-height : auto;
+
+header{
+    height: $header-height;
+}
+
+.header--logo_alt{
+    font-size: $header--logo-font_size;
+    line-height: $header--logo-line_height;
+    position         : relative;
+    display          : block;
+    text-align       : center;
+    margin           : $header--logo_alt-margin;
+    padding          : $header--logo_alt-padding;
+    background-color : $header--logo-background;
+    color            : $light_gray;
+    width            : $header--logo_alt-width;
+    height           : $header--logo_alt-height;
+}
+
+.header--logo_img{
+
+}
+
+/*.header--sub_header{
+    color: $light_blue;
+    height: $header--sub_header-height;
+    margin-left: $header--sub_header-margin-left;
+}*/

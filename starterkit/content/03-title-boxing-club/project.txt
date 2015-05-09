@@ -1,0 +1,14 @@
+Title: Title Boxing Club
+----
+Tags: digital design, print design, video
+----
+Date: 2013
+----
+Thumbnail: (image: tn-1.jpg)
+----
+Text: Title Boxing Club is America’s fastest growing fitness franchise thanks in part to a strong rebrand and integrated campaign. I assited in the design and production across multiple media. The campaign won a 2013 Silver Davies award.
+
+(image: 01.jpg)
+(image: 02.jpg class: inline1-2)(image: 03.jpg class: inline2-2)
+(image: 04.png class: inline1-2)(image: 05.png class: inline2-2)
+(vimeo: https://vimeo.com/83558736)

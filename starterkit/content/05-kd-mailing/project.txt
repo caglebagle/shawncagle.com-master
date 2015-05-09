@@ -1,0 +1,18 @@
+Title: KD Mailing
+----
+Tags: identity, digital design
+----
+Date: 2012
+----
+Thumbnail: (image: tn-1.jpg)
+----
+Text: I had the opportunity to rebrand KD Mailing and Fulfillment. The complete identity was inspired by the thousands of boxes and rectangle documents on the premises.
+
+(image: 01.jpg)
+(image: 02.jpg)
+(image: 03.png)
+(image: 04.jpg)
+(image: 05.jpg class: inline1-2)(image: 06.jpg class: inline2-2)
+(image: 07.jpg class: floatright)
+(image: 08.jpg class: floatleft)
+(image: 09.jpg class: floatright)

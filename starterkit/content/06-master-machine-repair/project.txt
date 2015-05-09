@@ -1,0 +1,20 @@
+Title: Master Machine Repair
+----
+Tags: identity, digital design, print design
+----
+Date: 2012.08
+----
+Thumbnail: (image: tn-1.jpg)
+----
+Text: Master Machine and Repair fixes industrial machines. They needed an identity refresh that wouldn’t break down, something low maintenance.
+
+(image: 01.jpg class: inline1-2)(image: 02.jpg class: inline2-2)
+(image: 03.jpg)
+(image: 04.jpg class: inline1-2)(image: 05.jpg class: inline2-2)
+(image: 06.jpg)
+(image: 07.jpg class: inline1-2)(image: 08.jpg class: inline2-2)
+(image: 09.jpg class: inline1-2)(image: 10.jpg class: inline2-2)
+(image: 11.jpg)
+(image: 12.jpg class: floatleftmarginright)
+
+I was lead designer for MMR’s new website, but I resigned because of client and project management delays. I was disappointed to see the aesthetic change significantly after my departure. (link: mastermachineandrepair.com)

@@ -1,0 +1,52 @@
+#Templating Notes
+##Basics
+Templates (`.php`) relate to similar named content files (.`txt`). EG:
+
+Text File                      | Template
+/content/home/home.txt         | /site/templates/home.php
+/content/about/about.txt       | /site/templates/about.php
+/content/project/project.txt   | /site/templates/project.php
+/content/project-1/project.txt | /site/templates/project.php
+/content/project-2/project.txt | /site/templates/project.php
+/content/project-3/project.txt | /site/templates/project.php
+
+If a template file with the same name as the content file does not exist, the default template is loaded.
+
+You can share template and content files for multiple pages as shown above using `/content/project-1/project.txt` etc.
+
+###Creating your own
+Site wide variables are used as follows.
+
+```
+<?php
+    echo $site->title();
+?>
+```
+In this example, `$site-title()` refers to the content file `/content/site.txt`. A basic content file looks like the following.
+
+```
+Title: Website Title
+----
+Description: This is my website, there are many like it, but this one is mine
+----
+Keywords: These, Are, Comma, Seperated, Keywords
+```
+
+Page specific files are similar and are used as follows.
+
+```
+<?php
+    echo $page->project_text();
+?>
+```
+
+The `$page->project_text();` variable would refer to `/content/project/project.txt` and would look like the following.
+
+```
+title: Project Title
+----
+project_text: This is paragraph content all about the project.
+----
+photo_url: https://multiplephotourlshere.com
+```
+

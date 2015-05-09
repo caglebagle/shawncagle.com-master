@@ -1,0 +1,26 @@
+#TODO
+
+##Templates!
+###(link: http://getkirby.com/docs/templates text: Documentation)
+- Home Page: *Done*
+- Project Page: *Done*
+- About Page
+- Archive Page
+
+##Snippets!
+###(link: http://getkirby.com/docs/templates/snippets text: Documentation)
+- Project Thumbs
+    - Hover Events
+        1. Start Animation
+        2. Secondary Thumbnail
+        3. No Hover Event
+- Page Menu: *Done*
+- Next Project Button (mobile)
+- Archive Posts
+
+##Custom Tags for Markdown
+###(link: http://getkirby.com/docs/advanced/kirbytext text: Documentation)
+- Project Thumbs
+- Menu Items
+- Submenu Items
+- Theme Changer

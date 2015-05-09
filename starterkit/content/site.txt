@@ -1,0 +1,25 @@
+Title: Cagle Bagel
+
+----
+
+Author: Shawn Cagle
+
+----
+
+Profession: Advertising Art Director
+
+----
+
+Description: Cagle Bagel Portfolio
+
+----
+
+Keywords: shawn, shawn cagle, cagle, cagle bagel, bagel
+
+----
+
+Logo_Url: localhost/assets/img/logo.png
+
+----
+
+Copyright: © 2014-(date: Year) Shawn Cagle

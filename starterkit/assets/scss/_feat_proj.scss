@@ -1,0 +1,52 @@
+// Featured Project style tree
+// ------------------------------
+// ul.project_grid
+//     li.project--item
+//        img.project--thumb
+//        img.project--thumb.hover-source
+//
+//
+// Project Page Style Tree
+// ------------------------------
+// article.project
+//     h1.project--header
+//     p.project--description
+//     ul.project--images
+//       li.project--image
+//
+
+$project_grid-width    : 75%;
+
+$project--item-width   : 265px;
+$project--item-height  : 180px;
+$project--item-padding : 0;
+$project--item-margins : 45px;
+
+.project_grid, .project {
+    @extend  .no_list;
+    @include content();
+}
+
+.project--item {
+    @include content--item( $project--item-width, $project--item-padding );
+    height : $project--item-height;
+    width  : $project--item-width;
+    margin : $project--item-margins / 2;
+
+    img.project--thumb {
+        position       : relative;
+        display        : block;
+        height         : 100%;
+        width          : 100%;
+        vertical-align : middle;
+        margin-left    : auto;
+        margin-right   : auto;
+        padding        : 0px;
+
+        &.project--thumb-active, &:focus, &:hover {
+            @include content--thumb-active();
+        }
+    }
+}
+
+

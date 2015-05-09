@@ -1,0 +1,15 @@
+Title: Top 11
+----
+Tags: social, digital design, print design
+----
+Date: 2013.04
+----
+Thumbnail: (image: tn-1.jpg)
+----
+Text: The ongoing new business campaign known as “Top 11” shows Plan B’s industry specific expertise in a fun modular way. I created weekly blog graphics and designed quarterly postcards. Actually, I earned my internship because I wrote a blog post as my job application.
+
+
+(image: 01.jpg)
+(image: 02.png)
+(image: 03.jpg class: inline1-2)(image: 04.jpg class: inline2-2)(image: 05.jpg class: inline1-2)(image: 06.jpg class: inline2-2)(image: 07.jpg class: inline1-2)(image: 08.jpg class: inline2-2)(image: 09.jpg class: inline1-2)(image: 10.jpg class: inline2-2)(image: 11.jpg class: inline1-2)(image: 12.jpg class: inline2-2)(image: 13.jpg class: inline1-2)(image: 14.jpg class: inline2-2)
+This (link: http://caglebagle.com/wannab text: mached-up Top 11) got me the interview.

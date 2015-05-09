@@ -1,0 +1,131 @@
+/*{{{
+ * Global Styles.
+ * @Author   : Kristopher Watts <kristopher.a.watts@gmail.com>
+ * @Location : "/assets/scss/_globals.scss"
+ *
+ * @Uses     : use @extend <classname> to keep php files nice and clean
+ * @Example  : .navlist { @extend .no_list; // Get rid of default UL styling }
+ *
+ *
+ *
+}}}*/
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.no_list, .project_grid, .project, .nav--list {
+  list-style: none;
+  padding-left: 0px; }
+
+hr {
+  border-top: 3px solid #4666B9;
+  border-bottom: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+/* Header Style Tree
+ * ------------------------------
+ * header
+ *     .header--logo_alt
+ *         .header--logo_img
+ *     .header--sub_header
+ *     .header--sub_header
+*/
+header {
+  height: 120px; }
+
+.header--logo_alt {
+  font-size: 2.55rem;
+  line-height: 2.55rem;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0 0 0 35px;
+  padding: 25px 15px 15px 15px;
+  background-color: #4666B9;
+  color: #B0B0AF;
+  width: 275px;
+  height: 95px; }
+
+/*.header--sub_header{
+    color: $light_blue;
+    height: $header--sub_header-height;
+    margin-left: $header--sub_header-margin-left;
+}*/
+/* TODO: Active element overlay */
+.project_grid, .project {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 75%;
+  max-width: 1317.5px;
+  /* float             : right; */ }
+
+.project--item {
+  position: relative;
+  display: inline-block;
+  width: 265px;
+  padding: 0;
+  height: 180px;
+  width: 265px;
+  margin: 22.5px; }
+  .project--item img.project--thumb {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px; }
+    .project--item img.project--thumb.project--thumb-active, .project--item img.project--thumb:focus, .project--item img.project--thumb:hover {
+      border: 1px solid #4666B9;
+      padding: 3px; }
+
+/* Navigation Menu Style Tree
+ * ------------------------------
+ * nav
+ *     hr.nav--list--break
+ *     ul.nav--list
+ *         li.nav--list--item
+ *             a
+*/
+/* Instead of changing styles with media queries, use variables as much as possible. */
+nav {
+  display: inline-block;
+  width: 24.7%; }
+
+.nav--list {
+  margin-top: 130px;
+  padding-left: 60px;
+  padding-right: 5%;
+  line-height: 2.2rem;
+  width: 80%;
+  max-width: 300px; }
+
+.nav--list--item {
+  font-size: 1.3rem;
+  width: 115%; }
+  .nav--list--item a {
+    display: block;
+    padding-left: 15px;
+    transition: inherit;
+    color: #333333;
+    width: 100%;
+    text-decoration: none;
+    text-transform: capitalize; }
+
+.nav--list--item-active, .nav--list--item:hover {
+  transition: all 0.5s;
+  background: #4666B9; }
+  .nav--list--item-active a, .nav--list--item:hover a {
+    color: #F0F4F9; }
+
+.nav--list--break {
+  width: 115%; }
